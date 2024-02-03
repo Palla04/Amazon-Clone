@@ -15,6 +15,7 @@
 .nav-logo{
     height: 54px;
     width: 100px;
+    display: flex;
 }
 .logo{
     background-image: url(amazon_logo.png);
@@ -288,7 +289,18 @@ ul a{
     /* Navbar styles */
     .navbar {
         flex-direction: column;
-        height: auto;
+        height: 220px;
+        justify-content: center;
+
+    }
+    .nav-search{
+        height: 20px;
+        width: 100%;
+
+    }
+    .nav-logo{
+        justify-content: center;
+        align-items: center;
     }
 
     .nav-logo {
@@ -303,5 +315,39 @@ ul a{
     .box {
         width: 100%;
     }
-
+    .foot-panel2{
+        height: 700px;
+        flex-direction: column;
+        padding-bottom: 2px;
+    }
+    /* .m5{
+        margin-top: 2px;
+    } */
+    .hero-section{
+        display: none;
+    }
+    .panel-deals{
+        display: none;
+    }
+    .panel-ops{
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .box{
+        height: 320px;
+    }
+    .box-img{
+        height: 250px;
+    }
+    .foot-panel1{
+        height: 30px;
+    }
+    .foot-panel3{
+        height: 60px;
+    }
+    .foot-panel4{
+        height: 70px;
+    }
+    
 }
